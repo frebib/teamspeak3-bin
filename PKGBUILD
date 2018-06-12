@@ -4,7 +4,7 @@
 # Contributor: J.W. Birdsong  <jwbirdsongATmailDOTcom>
 
 pkgname=teamspeak3
-pkgver=3.1.9
+pkgver=3.1.10
 pkgrel=2
 pkgdesc="TeamSpeak is software for quality voice communication via the Internet"
 url="http://www.teamspeak.com"
