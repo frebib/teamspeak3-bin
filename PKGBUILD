@@ -4,10 +4,12 @@
 # Contributor: J.W. Birdsong  <jwbirdsongATmailDOTcom>
 
 pkgname=teamspeak3-bin
-pkgver=3.1.10
+pkgver=3.2.1
 pkgrel=1
 pkgdesc="TeamSpeak3 client using only system libraries instead of the bundled ones"
 url="http://www.teamspeak.com"
+provides=('teamspeak3')
+conflicts=('teamspeak3')
 license=('custom')
 depends=('quazip' 'snappy' 'openssl' 'libudev0-shim' 'libc++' 'qt5-base' 'qt5-declarative' 'qt5-location' 'qt5-svg' 'qt5-webchannel' 'qt5-webengine')
 optdepends=('libpulse')
