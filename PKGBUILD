@@ -5,7 +5,7 @@
 
 pkgname=teamspeak3-bin
 pkgver=3.2.3
-pkgrel=1
+pkgrel=2
 pkgdesc="TeamSpeak3 client using only system libraries instead of the bundled ones"
 url="http://www.teamspeak.com"
 provides=('teamspeak3')
@@ -21,10 +21,7 @@ source=('teamspeak3.desktop'
 sha512sums=('4cac0b7446dc3e728b232fdd6c6d75be1d2a5530635eab5918a4e7dd6a4a3fc21d6a75055da919b56e5cf849f4c5ba26ece56759a45bc4850eba3eb73853759d'
             'af18ed36a3c8de90b60a7205ebf91a35d4b517f22f97d541c82debdb12697882469d9771fdf3fb8b081aeb74a01237f3afd4732daccf4b374dc6d39e7df5d444'
             'd6d03f1bda86c90390ce0032e4d30e889977f80ff76ba1e5c443109e93cbedbee92c6fc2759f58d23659c15dba4f2ac718861571239ba117dcfe11f136f556dc'
-            '6f2a0e366589a3495be3ecbe3e866e1d05db3578ed1e2bf19195e6d6818acc1ddb44b46915aa88ff64ac6cc150d3b88b3347147bb0cde93e013aa7960c10dfab')
-
-# Their TLS certs are broken -_-
-DLAGENTS=("https::/usr/bin/curl -k -o %o %u")
+            'cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e')
 
 prepare() {
   mkdir -p archive && cd archive
