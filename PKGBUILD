@@ -5,7 +5,7 @@
 
 _pkgname=teamspeak3
 pkgname=$_pkgname-bin
-pkgver=3.5.0
+pkgver=3.5.1
 pkgrel=1
 pkgdesc="TeamSpeak3 client using only system libraries instead of the bundled ones"
 url="http://www.teamspeak.com"
@@ -26,7 +26,7 @@ source=('teamspeak3.desktop'
 sha512sums=('4cac0b7446dc3e728b232fdd6c6d75be1d2a5530635eab5918a4e7dd6a4a3fc21d6a75055da919b56e5cf849f4c5ba26ece56759a45bc4850eba3eb73853759d'
             'af18ed36a3c8de90b60a7205ebf91a35d4b517f22f97d541c82debdb12697882469d9771fdf3fb8b081aeb74a01237f3afd4732daccf4b374dc6d39e7df5d444'
             'd6d03f1bda86c90390ce0032e4d30e889977f80ff76ba1e5c443109e93cbedbee92c6fc2759f58d23659c15dba4f2ac718861571239ba117dcfe11f136f556dc'
-            '02d3c3cc546e308f87760f15455ea0840eed6f3e56118e4eb80526629d2d4dd6cf9646d81f9f6118b5747bf4710782c333111cbd9bf57cdad3ecd43cfb4e25b7')
+            '8537c74df8772755c91c7c65f0fcc745475c190a18717111131bd4ab98cfe47e611503f3e03b2eb8a5f7198ce5070dc705aae2374523876b732efe21e248639d')
 
 prepare() {
   mkdir -p archive && cd archive
